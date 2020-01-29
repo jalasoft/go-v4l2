@@ -6,6 +6,11 @@ import (
 	//"bytes"
 )
 
+/*
+THIS FILE REPRESENTS PORT OF videodev2.h HEADER FILE
+FOR C LANGUAGE.
+*/
+
 type V4l2Capability struct {
 	Driver       [16]uint8
 	Card         [32]uint8
