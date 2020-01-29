@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"syscall"
 	"unsafe"
-	"v4l2"
+
+	"github.com/jalasoft/go-v4l2"
 )
 
 const (
